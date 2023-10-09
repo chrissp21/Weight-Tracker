@@ -6,6 +6,13 @@
 /*
  * Chart custom properties
  */
+
+#chart {
+  width: 75%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 @property --color-1 {
   syntax: "<color>";
   initial-value: transparent;
